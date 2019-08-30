@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" class="{{ page.html-class }}">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body id="page-top" class="index">
+<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+
+    {% unless page.navigation == false %}
+        {% include navigation.html %}
+    {% endunless %}
+
+    {{ content }}
+
+    {% unless page.footer == false %}
+        {% include footer.html %}
+    {% endunless %}
+
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="/js/freelancer.js"></script>
+
+</body>
+
+</html>
