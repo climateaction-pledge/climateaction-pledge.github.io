@@ -63,6 +63,10 @@
   text-transform: none!important;
   font-size: 1.1em!important;
   border-radius: 0.8em!important;
+  background-color: #bc1839!important;
+}
+.form-replace #can_embed_form input[type=submit]:hover {
+  background-color: #e41d45!important;
 }
 .form-replace #can_embed_form input[type="text"], .form-replace #can_embed_form input[type="email"] {
   border-radius: 0.5em!important;
@@ -75,6 +79,11 @@
   border-radius: 0.7em!important;
   margin: 0.8em 0 0.9em 0!important;
 }
+.form-replace #can_embed_form .action_status_running_total {
+  color: #bc1839!important;
+  font-weight: 400!important;
+}
+
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
