@@ -39,6 +39,24 @@
   font-size: 1.3em!important;
   letter-spacing: 0.06em!important;
 }
+.form-replace #can_embed_form input[type=submit] {
+  height: 2.7em;
+  font-weight: 800!important;
+  text-transform: none!important;
+  font-size: 1.1em!important;
+  border-radius: 0.8em!important;
+}
+.form-replace #can_embed_form input[type="text"], .form-replace #can_embed_form input[type="email"] {
+  border-radius: 0.5em!important;
+}
+.form-replace #can_embed_form #d_sharing>ul>li {
+  font-size: 0.7em!important;
+}
+.form-replace #can_embed_form #d_sharing #edit_d_sharing_opts, .form-replace #can_embed_form #d_sharing #edit_d_sharing_opts-close {
+  padding: 9px 14px!important;
+  border-radius: 0.7em!important;
+  margin: 0.8em 0 0.9em 0!important;
+}
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
