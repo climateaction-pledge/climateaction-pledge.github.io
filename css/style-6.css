@@ -15,6 +15,13 @@
 #can_embed_form {
   border-radius: 1.5em;
 }
+#can_embed_form p {
+  text-align: left;
+}
+#can_embed_form .action_description.clearfix {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
 #can_embed_form .clearfix {
   padding: 18px!important;
 }
@@ -23,6 +30,14 @@
 }
 #action_info {
   display: none;
+}
+.form-replace #can_embed_form .action_sidebar>h4:not(.sidebartitle) {
+  text-transform: none!important;
+  font-weight: bold!important;
+  line-height: 1.3em!important;
+  text-align: left!important;
+  font-size: 1.3em!important;
+  letter-spacing: 0.06em!important;
 }
 
 body {
