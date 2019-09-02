@@ -38,6 +38,19 @@
   text-align: left!important;
   font-size: 1.3em!important;
   letter-spacing: 0.06em!important;
+  margin-top: 2em!important;
+  padding-bottom: 1.9em!important;
+  margin-bottom: 0.5em!important;
+}
+.form-replace #can_embed_form .action_sidebar>h4:not(.sidebartitle)::before {
+  content: '“';
+  color: #efecec;
+  font-size: 6.3em;
+  float: left;
+  position: relative;
+  top: 8px;
+  left: -12px;
+  font-family: lat;
 }
 .form-replace #can_embed_form input[type=submit] {
   height: 2.7em;
