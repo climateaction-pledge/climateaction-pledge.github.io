@@ -83,7 +83,10 @@
   color: #bc1839!important;
   font-weight: 400!important;
 }
-
+.form-replace #can_embed_form #logo_wrap {
+  border-radius: 1.105em;
+  margin: -15px!important;
+}
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
