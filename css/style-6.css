@@ -15,8 +15,11 @@
 #can_embed_form {
   border-radius: 1.5em;
 }
-#can_embed_form p {
-  text-align: left;
+.form-replace #can_embed_form p {
+  text-align: left!important;
+  letter-spacing: 0.05em!important;
+  line-height: 1.4em!important;
+  margin-bottom: 1.3em!important;
 }
 #can_embed_form .centertext {
   padding: 0;
