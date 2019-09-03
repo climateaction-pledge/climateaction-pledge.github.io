@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+/* pledge */
 .form-replace {
   width: 100%;
   text-align: center;
@@ -94,6 +90,19 @@
   margin: -15px!important;
 }
 
+/* survey */
+.form-replace #can_embed_form span {
+  text-align: left;
+}
+.form-replace #can_embed_form span>label {
+  font-weight: normal;
+  padding-bottom: 0.7em!important;
+}
+.checkbox input[type=checkbox] {
+  margin-left: 0;
+}
+
+/* bootstrap / cat */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
