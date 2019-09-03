@@ -118,9 +118,27 @@
 .checkbox input[type=checkbox] {
   margin-left: 0;
 }
-
 .form-replace #can_embed_form #can_sidebar {
   margin-bottom: 1.4em!important;
+}
+
+/* thank you page */
+.form-replace #can_embed_form #can_thank_you {
+  border-radius: 1.5em!important;
+  background-color: white!important;
+}
+.form-replace #can_embed_form #can_thank_you h1, .form-replace #can_embed_form #can_thank_you p {
+  color: #333!important;
+}
+.form-replace #can_embed_form #can_thank_you #action_thank_you_text a {
+  color: #18bc9c!important;
+}
+.form-replace .form-replace #can_embed_form #can_thank_you {
+
+}
+.form-replace #can_embed_form #can_thank_you #action_thank_you_text, .form-replace #can_embed_form #can_thank_you h1 {
+  max-width: 880px;
+  margin: 2.1em auto!important
 }
 
 /* bootstrap / cat */
