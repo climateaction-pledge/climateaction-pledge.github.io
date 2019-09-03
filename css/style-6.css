@@ -91,6 +91,23 @@
 }
 
 /* survey */
+.form-replace #can_embed_form .control-label {
+  text-align: left!important;
+  text-transform: none!important;
+  font-size: 0.7em!important;
+  font-style: italic!important;
+  margin-top: 0em!important;
+  margin-bottom: 1.4em!important;
+  font-weight: normal!important;
+}
+.form-replace #can_embed_form .control-label.check_radio_label {
+  text-align: center!important;
+  font-weight: bold!important;
+  font-size: 1.1em!important;
+  margin-top: 1em!important;
+  margin-bottom: 1em!important;
+  font-style: normal!important;
+}
 .form-replace #can_embed_form span {
   text-align: left;
 }
