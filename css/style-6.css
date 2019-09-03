@@ -3,6 +3,9 @@
   width: 100%;
   text-align: center;
 }
+.form-replace #can_embed_form .international_link {
+	display: none!important;
+}
 .form-replace>img {
   margin: 4em 0 5.2em 0;
   width: 100%;
@@ -88,6 +91,11 @@
 .form-replace #can_embed_form #logo_wrap {
   border-radius: 1.105em;
   margin: -15px!important;
+}
+
+.form-replace #can_embed_form .control-label.privacy-label {
+  position: relative!important;
+  top: -8px!important;
 }
 
 /* survey */
