@@ -100,7 +100,7 @@
   margin-bottom: 1.4em!important;
   font-weight: normal!important;
 }
-.form-replace #can_embed_form .control-label.check_radio_label, .form-replace.pledge-form #can_embed_form .control-label {
+.form-replace #can_embed_form .control-label.check_radio_label, .form-replace.pledge-form #can_embed_form .control-label:not(.privacy-label) {
   text-align: center!important;
   font-weight: bold!important;
   font-size: 1.1em!important;

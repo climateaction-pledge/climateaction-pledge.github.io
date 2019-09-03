@@ -66,3 +66,17 @@
     });
 
 })(jQuery); // End of use strict
+
+$(document).ready(function(){
+    workLabel();
+});
+
+function workLabel() {
+    if($("#I-work-at").length) {
+        $("#I-work-at").after("<label class='control-label privacy-label'>We will never share your name or email with your company without your explicit permission.</label>");
+    } else {
+        setTimeout(function(){ 
+            workLabel();
+        }, 500);
+    }
+}
