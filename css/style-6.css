@@ -129,6 +129,12 @@
 }
 .form-replace #can_embed_form #can_thank_you h1, .form-replace #can_embed_form #can_thank_you p {
   color: #333!important;
+  font-family: lato,helvetica neue,Helvetica,Arial,sans-serif!important;
+  line-height: 1.2em!important;
+  letter-spacing: 1px!important;
+}
+.form-replace #can_embed_form #can_thank_you p {
+  font-size: 20px!important;
 }
 .form-replace #can_embed_form #can_thank_you #action_thank_you_text a {
   color: #18bc9c!important;
