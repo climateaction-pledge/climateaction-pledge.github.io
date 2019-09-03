@@ -41,13 +41,19 @@
   text-transform: none!important;
   font-weight: bold!important;
   line-height: 1.3em!important;
-  text-align: left!important;
   font-size: 1.3em!important;
   letter-spacing: 0.06em!important;
   padding-bottom: 1.9em!important;
+}
+.form-replace.pledge-form #can_embed_form .action_sidebar>h4:not(.sidebartitle) {
+  text-align: left!important;
   margin: 2.4em 0.6em 0.5em 0.6em!important;
 }
-.form-replace #can_embed_form .action_sidebar>h4:not(.sidebartitle)::before {
+.form-replace.survey-form #can_embed_form .action_sidebar>h4:not(.sidebartitle) {
+  text-align: center!important;
+  margin: 1em!important;
+}
+.form-replace.pledge-form #can_embed_form .action_sidebar>h4:not(.sidebartitle)::before {
   content: '“';
   color: #efecec;
   font-size: 6.3em;
