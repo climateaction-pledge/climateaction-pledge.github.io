@@ -119,6 +119,10 @@
   margin-left: 0;
 }
 
+.form-replace #can_embed_form #can_sidebar {
+  margin-bottom: 1.4em!important;
+}
+
 /* bootstrap / cat */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
