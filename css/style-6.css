@@ -15,6 +15,10 @@
   border: none !important;
 }
 
+header .intro-text a:hover {
+  text-decoration: none;
+}
+
 .pledge-text {
   font-size: 2.5em;
   text-align: center;
@@ -46,11 +50,13 @@
 
 @media (max-width: 767px) {
   .pledge-text {
-    font-size: 2em;
+    font-size: 1.5em;
+    line-height: 30px;
   }
 
   .pledge-text:before {
-    left: 10px;
+    left: 0px;
+    font-size: 3em;
   }
 
   #can-form-area-test-tech-workers-support-the-climate-strike #can_embed_form {
@@ -299,8 +305,8 @@ header .container {
   padding-bottom: 50px;
 }
 header.pledge .container {
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 header img {
   display: block;
@@ -311,7 +317,7 @@ header .intro-text .name {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*text-transform: uppercase;*/
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 header .intro-text * {
   letter-spacing: 0.3px;
@@ -323,11 +329,7 @@ header .intro-text .skills {
 header .intro-text h1 a {
   text-decoration: none;
 }
-@media (min-width: 500px) {
-  header .intro-text .name {
-    font-size: 3.25em;
-  }
-}
+
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
@@ -337,9 +339,7 @@ header .intro-text h1 a {
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  header .intro-text .name {
-    font-size: 2em;
-  }
+
   header .intro-text .skills {
     font-size: 1.75em;
   }
