@@ -20,8 +20,6 @@ $(document).ready(function($) {
 
         }
 
-
-
         initializeInterface();
 
     });
