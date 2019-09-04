@@ -11,9 +11,53 @@
   width: 100%;
   max-width: 150px;
 }
-#can_embed_form {
-  border-radius: 1.5em;
+#can-form-area-test-tech-workers-support-the-climate-strike #can_embed_form {
+  border: none !important;
 }
+
+.pledge-text {
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 35px;
+  line-height: 50px;
+  letter-spacing: 0px;
+}
+
+.pledge-text:before {
+  content: '“';
+  color: #efecec;
+  font-size: 4em;
+  float: left;
+  position: relative;
+  top: 8px;
+  left: 20px;
+  font-family: lat;
+}
+#can-form-area-test-tech-workers-support-the-climate-strike #can_embed_form.can_768 #can_main_col {
+  width: 60% !important;
+}
+#can-form-area-test-tech-workers-support-the-climate-strike #can_embed_form.can_768 #can_sidebar {
+  width: 35% !important;
+}
+
+.entry-title {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .pledge-text {
+    font-size: 2em;
+  }
+
+  .pledge-text:before {
+    left: 10px;
+  }
+
+  #can-form-area-test-tech-workers-support-the-climate-strike #can_embed_form {
+    padding-top: 0 !important;
+  }
+}
+
 .form-replace #can_embed_form p {
   text-align: left!important;
   letter-spacing: 0.05em!important;
@@ -290,11 +334,11 @@ header .intro-text h1 a {
     padding-bottom: 100px;
   }
   header.pledge .container {
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   header .intro-text .name {
-    font-size: 4.75em;
+    font-size: 2em;
   }
   header .intro-text .skills {
     font-size: 1.75em;
