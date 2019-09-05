@@ -40,11 +40,15 @@ header .intro-text a:hover {
   font-family: lat;
 }
 
-#can-form-area-thank-you-for-taking-the-pledge-heres-the-next-step #can_embed_form.can_768 #can_main_col,
+#can-form-area-thank-you-for-taking-the-pledge-heres-the-next-step #can_embed_form.can_768 #can_main_col {
+  width: 35% !important;
+}
 #can-form-area-test-tech-workers-support-the-climate-strike #can_embed_form.can_768 #can_main_col {
   width: 60% !important;
 }
-#can-form-area-thank-you-for-taking-the-pledge-heres-the-next-step #can_embed_form.can_768 #can_sidebar,
+#can-form-area-thank-you-for-taking-the-pledge-heres-the-next-step #can_embed_form.can_768 #can_sidebar {
+  width: 60% !important;
+}
 #can-form-area-test-tech-workers-support-the-climate-strike #can_embed_form.can_768 #can_sidebar {
   width: 35% !important;
 }
