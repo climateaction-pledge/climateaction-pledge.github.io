@@ -11,6 +11,8 @@
   width: 100%;
   max-width: 150px;
 }
+
+#can-form-area-thank-you-for-taking-the-pledge-heres-the-next-step #can_embed_form,
 #can-form-area-test-tech-workers-support-the-climate-strike #can_embed_form {
   border: none !important;
 }
@@ -37,14 +39,17 @@ header .intro-text a:hover {
   left: 20px;
   font-family: lat;
 }
+
+#can-form-area-thank-you-for-taking-the-pledge-heres-the-next-step #can_embed_form.can_768 #can_main_col,
 #can-form-area-test-tech-workers-support-the-climate-strike #can_embed_form.can_768 #can_main_col {
   width: 60% !important;
 }
+#can-form-area-thank-you-for-taking-the-pledge-heres-the-next-step #can_embed_form.can_768 #can_sidebar,
 #can-form-area-test-tech-workers-support-the-climate-strike #can_embed_form.can_768 #can_sidebar {
   width: 35% !important;
 }
 
-.entry-title {
+#can-form-area-test-tech-workers-support-the-climate-strike .entry-title {
   display: none;
 }
 
