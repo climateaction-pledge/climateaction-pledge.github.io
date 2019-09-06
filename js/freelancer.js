@@ -73,7 +73,7 @@ $(document).ready(function(){
 
 function workLabel() {
     if($("#I-work-at").length) {
-        $("#I-work-at").after("<label class='control-label privacy-label'>We will never share your name or email with your company without your explicit permission.</label>");
+        $("#I-work-at").after("<label class='control-label privacy-label'>We are measuring and may share publicly the <em>quantity</em> of signatories from a given company. However we will <em>never</em> share your name, email or company with anyone, unless you provide your explicit permission.</label>");
     } else {
         setTimeout(function(){ 
             workLabel();
