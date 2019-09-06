@@ -57,6 +57,14 @@ header .intro-text a:hover {
   display: none;
 }
 
+#can-form-area-test-tech-workers-support-the-climate-strike #edit_d_sharing_opts {
+  display: none !important;
+}
+
+#can-form-area-test-tech-workers-support-the-climate-strike #d_sharing_opts {
+  display: list-item !important;
+}
+
 @media (max-width: 767px) {
   .pledge-text {
     font-size: 1.5em;
