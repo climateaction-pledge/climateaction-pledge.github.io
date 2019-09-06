@@ -156,6 +156,20 @@ header .intro-text a:hover {
   position: relative!important;
   top: -8px!important;
 }
+.form-replace #can_embed_form #d_sharing #d_sharing_opts {
+  display: block!important;
+  border-top: 0!important;
+  text-align: center!important;
+}
+.form-replace #can_embed_form #d_sharing ul li {
+  line-height: 1.5em!important;
+}
+.form-replace #can_embed_form #d_sharing #d_sharing_opts #name_optin1 {
+  margin-top: 1px!important;
+}
+.form-replace #can_embed_form #d_sharing #edit_d_sharing_opts {
+  display: none!important;
+}
 
 /* survey */
 .form-replace #can_embed_form .control-label {
